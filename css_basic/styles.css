@@ -18,3 +18,27 @@ aside{
     flex: 1;
     overflow-y: auto;
 }
+
+header li.logo{
+    background-color: rgb(17, 17, 57);
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+}
+footer{
+    background-color: rgb(17, 17, 57);
+    color: white;
+}
+footer>p>a{
+    color: white;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+table{
+    width: 100%;
+}
+tr:nth-child(even){
+    background-color: antiquewhite;
+}
